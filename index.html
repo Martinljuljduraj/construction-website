@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- head
+
+        Purpose:
+        - Title used here shows up in the browser tab
+        - Link to the favicon (small image that appears in the browser tab)
+        - Link to the CSS file (used to style the webpage)
+
+        When To Modify:
+        - [ ] Project 2 (REQUIRED FEATURE) 
+        - [ ] Project 2 (STRETCH FEATURE) (favicon)
+        - [ ] Any time after
+        -->
+        <title>Citi Construction Group</title>
+        <link rel="icon" href="img/favicon.png">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    
+    <body> <!-- don't put class="dark-mode" within body tag as that 
+                would make dark mode default and toggle to light mode after -->
+    
+        <!-- navbar [PLACEHOLDER] [ADDED IN UNIT 4] -->
+        <!-- navbar
+
+        Purpose:
+        - Navigation bar that allows users to jump to different sections of the webpage
+        - Also holds buttons for user settings (dark mode, reduce motion)
+
+        When To Modify:
+        - [ ] Project 4 (REQUIRED FEATURE)
+        - [ ] Project 5 (REQUIRED FEATURE) 
+        - [ ] Project 8 (STRETCH FEATURE) 
+        - [ ] Any time between / after
+        -->
+        <div class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about-us">About Us</a></li>
+                <li><a href="#contact-us">Contact Us</a></li>
+                <li><a href="#links">Links</a></li>
+                <li><a><button id="theme-button">Toggle Dark Mode</button></li></a>
+            </ul>
+        </div>
+
+        <!-- headings
+
+        Purpose:
+        - Main header section of the webpage
+        - Contains the title, subtitle, image, and key buttons for the webpage
+
+        When To Modify:
+        - [ ] Project 2 (REQUIRED FEATURE) 
+        - [ ] Project 3 (REQUIRED FEATURE) 
+        - [ ] Project 4 (REQUIRED FEATURE) 
+        - [ ] Any time after
+        -->
+        <div id="home" class="header-container">
+            <div class="header-item">
+                <img id="header-img" src="./img/logo500.png" alt="Company Logo">
+            </div>
+
+            <div class="header-item">
+                <div class="title-group">
+                <h1>Citi Construction Group</h1>
+                <h3>"Your Vision, Our Expertise"</h3>
+                </div>
+
+                <div class="button-group">
+                    <button class="header-button" onclick="location.href='#home'">Home</button>
+                    <button class="header-button" onclick="location.href='#about-us'">About Us</button>
+                    <button class="header-button" onclick="location.href='#contact-us'">Contact Us</button>
+                    <button class="header-button" onclick="location.href='#links'">Links</button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- about
+
+        Purpose:
+        - Section for general info about the event
+        - Contains a video, description, and key points about the event
+
+        When To Modify:
+        - [ ] Project 2 (REQUIRED FEATURE) 
+        - [ ] Project 2 (STRETCH FEATURE) 
+        - [ ] Project 4 (STRETCH FEATURE) 
+        - [ ] Any time between / after
+        --> 
+        <h2 id="about-us"> Who We Are</h2>
+        <p>Detail oriented, dedicated workers 
+           with expertise in diagnosing, 
+           repairing and ensuring the reliability 
+           of various equipment and associated tools 
+           in commercial and residential settings 
+           for large and small projects.</p>
+        <!-- <h3>"Your Vision, Our Expertise"</h3> -->
+        <h4>We Build With Precision—From Foundation to Finish.</h4>
+        <ul>
+            <li> <b>Trusted Solutions for Residential & Commercial Projects</b> <i>From home repairs to major commercial builds, our team brings deep experience and unmatched attention to detail.</i></li>
+            <li> <b>Reliable Equipment and Repairs</b> <i>We show up fully prepared for any project</i></li>
+            <li> <b>Dedicated to Your Vision and Satisfaction</b> <i>Whether large or small, every project is treated with care, precision, and a commitment to excellence.</i></li>
+        </ul>
+
+        <!-- schedule
+
+        Purpose:
+        - Section for specific info about the event's schedule
+        - Contains images and descriptions of each activity
+
+        When To Modify:
+        - [ ] Project 2 (REQUIRED FEATURE) 
+        - [ ] Project 4 (STRETCH FEATURE) 
+        - [ ] Any time between / after
+        --> 
+        <!-- changed this Event Schedule to About Us as my "event" -->
+        <h2>About Us</h2>
+        
+        <!-- Put the optional flexbox feature here  -->
+        <div class="about-flex">
+            <div class="about-item">  
+                <img alt="A picture of a house over a design blueprint with a hardhat" 
+                    src="./img/hardhat.jpg"
+                    height="350"
+                    width="450"/>
+                <h3>Home Improvement</h3>
+                <p>Attention to detail is important to us as it is to you </p>
+            </div>
+            <div class="about-item">
+                <img alt="Two workers properly flooring on a work site" 
+                    src="./img/floor-tiles.png"
+                    height="350"
+                    width="450"/>
+                <h3>Performance</h3>
+                <p>Upon finishing a project we want you to see how much time, sweat and effort we put in to making your vision become true.</p>
+            </div>
+        </div>
+        <!-- rsvp [PLACEHOLDER] [ADDED IN UNIT 6] -->
+        <!-- Will change this from rsvp to my Get A Quote 
+         as this is a construction website. Should work similarly to 
+         rsvp for an event. -->
+        <div id="rsvp">
+            <h2>Get A Quote</h2>
+            <div class="rsvp-container">
+                <div class="rsvp-para">
+                    <!-- info goes here -->
+                    <p>Make sure to request what your fixing needs are as 
+                        soon as you can as this is a new company. By quoting with 
+                        us now before we go mainstream in the construction world, you will get 
+                        your project done quicker. 
+                    </p>
+                </div>
+                <div class="rsvp-participants">
+                    <!-- John from Yonkers got their quote!
+                         Amy from Queens got their quote!
+                         Teresa from Long Island got their quote! -->
+                    <p>🎟️ John (johndoe@outlook.com) has requested sanding.</p>
+                    <p>🎟️ Amy (amy4562@aol.com) has requested plumbing.</p>
+                    <p>🎟️ Teresa (terry@hotmail.com) has requested painting and plastering.</p>
+                </div>
+            </div>
+
+            <!--- Sign RSVP Form --->
+            <div class="form-container">
+                <form id="rsvp-form" title="rsvp-form">
+                    <!-- form inputs go here -->
+                    <label for="Name">Name:</label>
+                    <input id="name" type="text" name="Name">
+                    <label for="Email">Email:</label>
+                    <input id="email" type="text" name="Email">
+                    <label for="Service">Service Requesting:</label>
+                    <input id="service" type="text" name="Service">
+                </form>
+                <!-- Submit button -->
+                <button id="rsvp-button">Submit Request</button>
+            </div>      
+        </div>
+
+        <!-- success modal
+
+        Purpose:
+        - Modal that appears when a user successfully signs up for the event
+        - Contains a personalized message and image
+
+        When To Modify:
+        - [ ] Project 9 (REQUIRED FEATURE)
+        - [ ] Project 9 (STRETCH FEATURE) 
+        - [ ] Any time after
+        --> 
+
+        <div id="success-modal" class="modal">
+            <div class="modal-container">
+                <div class="modal-item">
+                    <p id="modal-text">Success: ✅ Quote Approved</p>
+                    <p id="modal-subtext">You have successfully entered a service request.</p>
+                </div>
+                <div class="modal-item">
+                    <img src="img/thumbsup.jpg" alt="Thumbs Up" />
+                </div>
+            </div>
+        </div>
+        
+        <!-- links
+
+        Purpose:
+        - Links to other resources related to the event
+
+        When To Modify:
+        - [ ] Project 2 (STRETCH FEATURE) 
+        - [ ] Project 4 (STRETCH FEATURE) 
+        - [ ] Any time between / after
+        --> 
+
+        <h2 id="links">Links</h2>
+
+        <!-- This <a> block is one link.  Copy and paste all 6 lines to create another link. -->
+        <!-- <a class="block" href="https://www.codepath.org">
+            <article>
+                <h3>Link title</h3>
+                <p>Link description</p>
+            </article>
+        </a> -->
+
+        <a class="block" href="https://youtu.be/vv0VvW7Jghc">
+            <article>
+                <h3>Construction Example</h3>
+                <p>Putting in the work</p>
+            </article>
+        </a>
+
+        <a class="block" href="https://www.youtube.com/watch?v=abv26Ajxpbo">
+            <article>
+                <h3>How We Go About Each Project</h3>
+                <p>Getting it done properly for your construction project</p>
+            </article>
+        </a>
+
+        <!-- Adding a Contact as this is a constuction webpage -->
+        <h2 id="contact-us">Contact Us</h2>
+        <p>We're available at info@cityconstruction.com. Visit us in Bronx, NY.</p>
+        <p>Phone Number: +123 456-7890</p>
+
+            
+        <!-- footer [PLACEHOLDER] [ADDED IN UNIT 3] -->
+        <script src="index.js"></script>
+
+    </body>
+</html>
