@@ -1,6 +1,5 @@
 ## 🏗️ Construction Website ##
-A clean, responsive construction‑themed website built during my time with CodePath, showcasing front‑end fundamentals including semantic HTML, 
-modular CSS, and interactive JavaScript. The site presents a construction company with a professional layout, branded imagery, and a simple user‑friendly interface.
+A clean, responsive construction‑themed website showcasing front‑end fundamentals including semantic HTML, modular CSS, and interactive JavaScript. The site presents a construction company with a professional layout, branded imagery, and a simple user‑friendly interface.
 
 <img width="1194" height="744" alt="image" src="https://github.com/user-attachments/assets/5ca5750f-c246-4e27-9c66-3bac6cc1582e" />
 
@@ -13,7 +12,7 @@ modular CSS, and interactive JavaScript. The site presents a construction compan
 - Favicon + image assets for a polished, professional feel
 
 ## About the Project ##
-This website was created as part of my CodePath coursework, focusing on:
+This website focuses on:
 - Front‑end fundamentals
 - Clean project structure
 - Real‑world UI layout patterns
